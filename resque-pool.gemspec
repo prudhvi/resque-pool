@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
     saving memory (w/REE) and monitoring their uptime
   EOF
 
-  s.add_dependency "resque",  "~> 1.22"
+  s.add_dependency "resque",  "~> 1.25"
   s.add_dependency "trollop", "~> 2.0"
   s.add_dependency "rake"
   s.add_development_dependency "rspec",    "~> 2.10"
